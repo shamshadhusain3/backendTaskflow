@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.app.taskflow.entity.Task;
 import com.app.taskflow.services.TaskService;
 @CrossOrigin(origins="http://127.0.0.1:3000")
+
 // @CrossOrigin(origins="https://taskflow03.netlify.app")
 @RestController
 @RequestMapping("/api/tasks")
